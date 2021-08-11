@@ -1,0 +1,7 @@
+const PI = 3.14;
+
+1. var is globally-scoped and added as a property to the window.
+Var can be reassigned and redeclared. let is block-scoped and can be reassigned, but not redeclared.
+2. const is also block-scoped, but in contract to var can neither be reassigned or redeclared.
+3. let can be reassigned, unlike const.
+4. var is hoisted, meaning that var declarations are read first when compiled.
